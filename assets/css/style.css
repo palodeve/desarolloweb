@@ -19,6 +19,7 @@ body {
     height: 100%;
     color: #264027;
     margin: 70px;
+    
 }
 
 /* ---- TIPOGRAFÍA ---- */
@@ -125,6 +126,14 @@ footer a {
     height: auto;
     object-fit: contain;
 }
+ .menuham {
+    text-align: end;
+    background-color: #529c42;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row; 
+
+}
 
 /* ---- MENÚ ---- */
 .menu {
@@ -136,7 +145,8 @@ footer a {
 }
 
 .menuham {
-    display: none;
+    border-bottom: #529c42;
+    border-color: #264027;
 }
 
 .menu li {
@@ -273,11 +283,7 @@ img {
     .menu {
         display: none;
     }
-    .menuham {
-        display: block;
-        text-align: center;
-        
-    }
+
     .formulario{
         font-size: 10px;
         display: block;

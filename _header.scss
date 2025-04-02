@@ -1,0 +1,13 @@
+// _header.scss
+@import 'variables';
+
+header {
+    background-color: $secondary-color;
+    padding: 20px;
+    
+    h1 {
+        color: $primary-color;
+        font-size: $font-size-large;
+        text-align: center;
+    }
+}
