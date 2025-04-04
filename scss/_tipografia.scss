@@ -1,0 +1,20 @@
+header h1 {
+    color: $color-primario;
+    font-size: 90px;
+    text-align: center;
+    margin: 65px 30px;
+    font-family: $fuente-secundaria;
+  }
+  
+  main h2 {
+    color: $color-primario;
+    font-size: 35px;
+    margin: 10px;
+  }
+  
+  main ul li, p {
+    color: $color-primario;
+    font-size: 22px;
+    margin: 25px;
+  }
+  

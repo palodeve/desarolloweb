@@ -1,0 +1,30 @@
+.navbar {
+    background-color: $color-secundario;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+  
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+    }
+  
+    li {
+      margin: 0 15px;
+    }
+  
+    a {
+      color: $color-link;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: block;
+  
+      &:hover {
+        color: $color-hover;
+      }
+    }
+  }
+  

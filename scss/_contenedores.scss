@@ -1,0 +1,28 @@
+header,
+main {
+  background-color: $color-fondo-claro;
+  margin: $espaciado-base;
+  padding: $espaciado-base;
+  border-radius: $radio-borde;
+  font-size: 28px;
+}
+
+section {
+  color: $color-fondo-claro;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 2px solid $color-primario;
+}
+
+aside {
+  color: $color-primario;
+  margin: 40px;
+
+  div p {
+    font-size: 30px;
+  }
+
+  li {
+    font-size: 25px;
+  }
+}
