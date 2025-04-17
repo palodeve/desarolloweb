@@ -26,5 +26,15 @@
         color: $color-hover;
       }
     }
+    li {
+      margin: 0 15px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    
+      &:hover {
+        background-color: lighten($color-secundario, 10%);
+      }
+    }
+    
   }
   

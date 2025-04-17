@@ -101,6 +101,14 @@ footer a {
 .navbar a:hover {
   color: #ccc;
 }
+.navbar li {
+  margin: 0 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.navbar li:hover {
+  background-color: #6ab958;
+}
 
 .menu {
   list-style-type: none;
@@ -169,6 +177,19 @@ img {
   display: block;
   width: 40%;
   margin: 40px auto;
+}
+
+#carouselExampleControls {
+  max-width: 500px;
+  margin: 50px auto;
+}
+#carouselExampleControls .carousel-item img {
+  width: 200px;
+  height: auto;
+  margin: 30px;
+  display: block;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 /* Reset básico */
@@ -323,6 +344,4 @@ img {
   footer {
     padding: 20px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

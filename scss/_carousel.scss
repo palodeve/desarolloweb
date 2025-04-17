@@ -1,0 +1,16 @@
+
+#carouselExampleControls {
+    max-width: 500px;
+    margin: 50px auto;
+
+    .carousel-item {
+        img {
+        width: 200px;
+        height: auto;
+        margin: 30px;
+        display: block;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+    }
+    }
